@@ -1,0 +1,6 @@
+ports:
+  - port: 3000
+    onOpen: open-preview
+tasks:
+  - init: code src/Main.elm && npm install && npm start
+    command: npm start
